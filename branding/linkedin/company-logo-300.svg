@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&amp;display=swap");
+      .w {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect width="300" height="300" fill="#f2efe8"/>
+  <text x="150" y="158" class="w" text-anchor="middle" dominant-baseline="central">
+    <tspan fill="#161512">MAR</tspan><tspan fill="#8b2e1b">SYNC</tspan>
+  </text>
+</svg>

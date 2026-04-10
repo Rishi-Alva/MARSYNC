@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="768" viewBox="0 0 1536 768">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="60%">
+      <stop offset="0%" style="stop-color:#dcd6cc"/>
+      <stop offset="35%" style="stop-color:#f2efe8"/>
+      <stop offset="100%" style="stop-color:#f2efe8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="25%" r="45%">
+      <stop offset="0%" style="stop-color:#8b2e1b;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#f2efe8;stop-opacity:0"/>
+    </radialGradient>
+    <pattern id="grid2" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#c9c2b4" stroke-width="0.6" opacity="0.4"/>
+    </pattern>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&amp;display=swap");
+      .logo {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 96px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .tag {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        fill: #5c5748;
+      }
+      .sub {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        fill: #6b655b;
+      }
+    </style>
+  </defs>
+  <rect width="1536" height="768" fill="url(#bg2)"/>
+  <rect width="1536" height="768" fill="url(#grid2)" opacity="0.45"/>
+  <rect width="1536" height="768" fill="url(#glow)"/>
+  <path d="M 1536 0 L 820 0 L 1536 768 Z" fill="#161512" opacity="0.06"/>
+  <path d="M 0 768 L 0 520 Q 280 400 520 768 Z" fill="#8b2e1b" opacity="0.07"/>
+  <circle cx="1280" cy="200" r="220" fill="none" stroke="#8b2e1b" stroke-width="2" opacity="0.18"/>
+  <circle cx="1380" cy="320" r="140" fill="none" stroke="#161512" stroke-width="2" opacity="0.14"/>
+  <circle cx="1180" cy="380" r="90" fill="none" stroke="#8b2e1b" stroke-width="1.5" opacity="0.22"/>
+  <line x1="72" y1="698" x2="620" y2="698" stroke="#8b2e1b" stroke-width="6"/>
+  <text x="72" y="580" class="tag">AI implementation &amp; advisory</text>
+  <text x="72" y="640" class="sub">Lake Nona · Orlando · Central Florida</text>
+  <text x="72" y="728" class="logo">
+    <tspan fill="#161512">MAR</tspan><tspan fill="#8b2e1b">SYNC</tspan>
+  </text>
+</svg>

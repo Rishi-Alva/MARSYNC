@@ -53,7 +53,7 @@
       return;
     }
 
-    /* No Formspree URL: open mailto with fields */
+    /* No form endpoint: open mailto with fields */
     e.preventDefault();
     var name = (form.querySelector('[name="name"]') || {}).value || "";
     var company = (form.querySelector('[name="company"]') || {}).value || "";

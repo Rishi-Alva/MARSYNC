@@ -54,8 +54,6 @@
           <p class="muted" style="max-width: 52ch; margin-top: 0">
             Prefer email?
             <a id="contact-email-link" href="#">Loading…</a>
-            ·
-            <span id="contact-phone"></span>
           </p>
 
           <form id="contact-form" class="form-grid" novalidate>
@@ -82,14 +80,6 @@
             <button class="btn btn-primary" type="submit">Send message</button>
             <p id="form-status" class="form-status" hidden role="status"></p>
           </form>
-
-          <p class="muted" style="margin-top: 1.5rem; font-size: 0.9rem; max-width: 52ch">
-            Optional: add a
-            <a href="https://formspree.io" rel="noopener noreferrer">Formspree</a>
-            URL to <code style="color: var(--accent)">formEndpoint</code> in
-            <code style="color: var(--accent)">js/site-config.js</code> for in-browser
-            submission without opening the mail client.
-          </p>
         </div>
       </section>
     </main>
@@ -98,7 +88,7 @@
       <div class="wrap footer-inner">
         <div>
           <div class="footer-brand">MARSYNC</div>
-          <div id="footer-locality">Orlando &amp; Lake Nona</div>
+          <div>Implementation &amp; Advisory · Orlando &amp; Lake Nona</div>
         </div>
         <div class="footer-meta">
           <a href="index.html">Home</a>
@@ -118,10 +108,6 @@
         var el = document.getElementById("contact-email-link");
         el.textContent = email || "Configure email in site-config.js";
         el.href = email ? "mailto:" + email : "#";
-        var phoneEl = document.getElementById("contact-phone");
-        phoneEl.textContent = S.phone || "";
-        var loc = document.getElementById("footer-locality");
-        if (S.locality) loc.textContent = S.locality;
       })();
     </script>
     <script src="js/main.js"></script>

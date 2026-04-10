@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1128" height="191" viewBox="0 0 1128 191">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e4da"/>
+      <stop offset="45%" style="stop-color:#f2efe8"/>
+      <stop offset="100%" style="stop-color:#f2efe8"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#c9c2b4" stroke-width="0.5" opacity="0.35"/>
+    </pattern>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&amp;display=swap");
+      .logo {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 38px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .tag {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        fill: #6b655b;
+      }
+    </style>
+  </defs>
+  <rect width="1128" height="191" fill="url(#bg)"/>
+  <rect width="1128" height="191" fill="url(#grid)" opacity="0.5"/>
+  <path d="M 1128 0 L 700 0 L 1128 191 Z" fill="#161512" opacity="0.04"/>
+  <circle cx="980" cy="50" r="120" fill="none" stroke="#8b2e1b" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="1040" cy="85" r="70" fill="none" stroke="#161512" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="189" x2="420" y2="189" stroke="#8b2e1b" stroke-width="3"/>
+  <text x="40" y="132" class="tag">Implementation · Orlando &amp; Lake Nona</text>
+  <text x="40" y="172" class="logo">
+    <tspan fill="#161512">MAR</tspan><tspan fill="#8b2e1b">SYNC</tspan>
+  </text>
+</svg>

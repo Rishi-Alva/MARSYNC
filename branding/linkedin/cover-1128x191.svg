@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1128" height="191" viewBox="0 0 1128 191">
+  <defs>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&amp;display=swap");
+      .logo {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .sub {
+        font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        fill: #6b655b;
+      }
+    </style>
+  </defs>
+  <rect width="1128" height="191" fill="#f2efe8"/>
+  <line x1="0" y1="189" x2="1128" y2="189" stroke="#c9c2b4" stroke-width="2"/>
+  <text x="48" y="88" class="logo">
+    <tspan fill="#161512">MAR</tspan><tspan fill="#8b2e1b">SYNC</tspan>
+  </text>
+  <text x="48" y="138" class="sub">AI implementation &amp; advisory · Orlando &amp; Lake Nona</text>
+  <circle cx="1020" cy="96" r="36" fill="none" stroke="#161512" stroke-width="4"/>
+  <circle cx="1056" cy="96" r="36" fill="none" stroke="#8b2e1b" stroke-width="4"/>
+</svg>
