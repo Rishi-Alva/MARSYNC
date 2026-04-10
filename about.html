@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Meet the MARSYNC team: Rishi Alva and Miguel Sanchez. AI implementation and client success for Orlando & Lake Nona."
+    />
+    <title>About | MARSYNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="index.html">MAR<span>SYNC</span></a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap page-hero">
+        <p class="section-label">About</p>
+        <h1>MARSYNC</h1>
+        <p>
+          We’re a Florida-focused practice: small team, direct communication, no account
+          manager theater. If the work doesn’t survive handoff, we didn’t do our job.
+        </p>
+      </div>
+
+      <section>
+        <div class="wrap">
+          <p class="section-label">Team</p>
+          <h2 style="margin-top: 0">Founders</h2>
+          <div class="founder-grid">
+            <article class="founder-card">
+              <h2>Rishi Alva</h2>
+              <p class="role">Co-founder</p>
+              <p>
+                Leads technical delivery and AI implementation, from discovery through
+                production systems you can trust.
+              </p>
+            </article>
+            <article class="founder-card">
+              <h2>Miguel Sanchez</h2>
+              <p class="role">Co-founder</p>
+              <p>
+                Drives client relationships, scoping, and go-to-market, turning AI strategy
+                into measurable outcomes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>How we engage</h2>
+          <p class="muted" style="max-width: 60ch">
+            We prefer a short intro call, then a written proposal with milestones. For
+            assessments and pilots, you get a defined deliverable and timeline, not an
+            open-ended “phase infinity.”
+          </p>
+          <p style="margin-top: 1.25rem">
+            <a class="btn btn-primary" href="contact.html">Get in touch</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div>
+          <div class="footer-brand">MARSYNC</div>
+          <div>AI advisory &amp; implementation · Orlando &amp; Lake Nona</div>
+        </div>
+        <div class="footer-meta">
+          <a href="contact.html">Contact</a>
+          ·
+          <span id="footer-year"></span>
+          MARSYNC
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/site-config.js"></script>
+    <script>
+      document.getElementById("footer-year").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
